@@ -25,6 +25,10 @@ describe("FACTORES PRIMOS", () => {
     const primosfac= new primos();
     expect(primosfac.factorprimo(8)).toEqual([2,2,2]);
   });
+  it("Debería retornar una lista para [3,3]", () => {
+    const primosfac= new primos();
+    expect(primosfac.factorprimo(9)).toEqual([3,3]);
+  });
 
 });
 
